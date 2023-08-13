@@ -1,9 +1,15 @@
-##### Beta testing on v3.1
-If anyone would love to try out the beta version of v3.1, you can do the following. Let me know if you encountered any issues. ;)
-```
-git clone -b v3.1-dev https://github.com/donaldzou/WGDashboard.git wgdashboard
-```
-> Please note that I still do push on this branch, and it might crash or not finish yet on some functionality ;)
+#### Install  Python 3.7+ & Pip3
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.7
+python3.7 -m pip install pip  or  sudo apt install python3-pip
+sudo apt install gunicorn3  ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed gunicorn3)
+sudo apt install flask  ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed flask)
+sudo apt install flask_qrcode ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed flask_qrcode)
+
+
+
 ##### Known issue on WGDashboard `v3.0 - v3.0.6`
 - [IPv6 in WireGuard might not fully support.](https://github.com/donaldzou/WGDashboard/issues/167)
 <hr>
