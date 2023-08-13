@@ -4,9 +4,9 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.7
 python3.7 -m pip install pip  or  sudo apt install python3-pip
-sudo apt install gunicorn3  ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed gunicorn3)
-sudo apt install flask  ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed flask)
-sudo apt install flask_qrcode ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed flask_qrcode)
+sudo apt install gunicorn3  # ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed gunicorn3)
+sudo apt install flask  # ( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed flask)
+sudo apt install flask_qrcode  #( if gives erroe while installing use pip install --ignore-installed [package name]==[package version] for eg. pip install --ignore-installed flask_qrcode)
   ```
 
 
